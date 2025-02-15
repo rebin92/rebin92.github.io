@@ -5,12 +5,12 @@ body {
 #container {
     display: flex;
     flex-direction: column;
-    height: 100svh;
+    height: 100vh;
     background-color: red;
 
 }
 
-#navigation {
+nav {
     display: flex;
     justify-content: flex-end;
     background-color: yellow;
@@ -25,7 +25,6 @@ body {
 #inner_container {
     margin-left: auto;
     margin-right: auto;
-    
     background-color: blue;
 }
 
@@ -39,8 +38,10 @@ body {
     background-color: turquoise;
 }
 
-#footer {
-    margin-top: auto;
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     background-color: pink;
 }
 
