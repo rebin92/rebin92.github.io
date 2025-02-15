@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: red;
+
+}
+
+#navigation {
+    display: flex;
+    justify-content: flex-end;
+    background-color: yellow;
+}
+
+#centered_container {
+    display: flex;
+    background-color: green;
+
+}
+
+#inner_container {
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: blue;
+}
+
+#search_bar {
+    display: block;
+    line-height: 2em;
+    border-radius: 15px;
+}
+
+#search_button {
+    background-color: turquoise;
+}
+
+#footer {
+    margin-top: auto;
+    background-color: pink;
+}
+
