@@ -38,7 +38,7 @@ nav {
     background-color: turquoise;
 }
 
-footer {
+#footer {
     position: fixed;
     width: 100%;
     bottom: 0;
